@@ -1,0 +1,11 @@
+E:\NET Framework\Group1\BasicWinformm\bin\Debug\BasicWinformm.exe.config
+E:\NET Framework\Group1\BasicWinformm\bin\Debug\BasicWinformm.exe
+E:\NET Framework\Group1\BasicWinformm\bin\Debug\BasicWinformm.pdb
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.csproj.AssemblyReference.cache
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmMain.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.Properties.Resources.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.csproj.GenerateResource.cache
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.csproj.CoreCompileInputs.cache
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.exe
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.pdb
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmUser.resources
