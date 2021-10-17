@@ -16,7 +16,7 @@ namespace BasicWinformm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmManagerUser());
+            Application.Run(new frmFire());
         }
     }
 }

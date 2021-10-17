@@ -8,5 +8,10 @@ E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.csproj.GenerateRes
 E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.csproj.CoreCompileInputs.cache
 E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.exe
 E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.pdb
-E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmUser.resources
 E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmManagerUser.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinform.frmUser.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmLopHoc.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmTimer.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmFire.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmLove.resources
+E:\NET Framework\Group1\BasicWinformm\obj\Debug\BasicWinformm.frmYear.resources

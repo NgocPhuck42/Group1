@@ -18,7 +18,8 @@ namespace BasicWinformm.Entities
         public string FullName {
            get => $"{LastName} {FirstName}";
         }
-        
+       
+        public string IdFaculty   { get; set; }
 
         public static List<Person> GetList()
         {
@@ -31,8 +32,10 @@ namespace BasicWinformm.Entities
                 LastName = "Phuc",
                 DOB = new DateTime(2000, 4, 23),
                 Sex = EGioiTinh.Nam,
-                HowTown = "Thua Thien Hue"
-            });
+                HowTown = "Thua Thien Hue",
+                IdFaculty = "1"
+
+            }); ;
             ls.Add(new Person
             {
                 Id = "2",
@@ -40,7 +43,8 @@ namespace BasicWinformm.Entities
                 LastName = "Tu",
                 DOB = new DateTime(2002, 5, 5),
                 Sex = EGioiTinh.Nu,
-                HowTown = "Quang Nam"
+                HowTown = "Quang Nam",
+                IdFaculty = "2"
             });
             
 
@@ -54,6 +58,15 @@ namespace BasicWinformm.Entities
         /// <returns>
         /// Sinh viên có mã tương ứng hoặc null nếu không tìm thấy
         /// </returns>
+        
+        public static List<Person> GetList(string idFaculty)
+        {
+            var ls = GetList();
+            var rs = ls.Where(e => e.IdFaculty == idFaculty).ToList();
+
+            return rs;
+        }
+
         public static Person Get(string id)
         {
             var dbPerson = GetList();

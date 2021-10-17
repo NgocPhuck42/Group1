@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Interop.WMPLib">
+      <HintPath>D:\JAVA2\Interop.WMPLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,7 +50,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Love.cs" />
+    <Compile Include="Entities\Faculty.cs" />
     <Compile Include="Entities\Person.cs" />
+    <Compile Include="Entities\SoundManager.cs" />
+    <Compile Include="frmFire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFire.Designer.cs">
+      <DependentUpon>frmFire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLopHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLopHoc.Designer.cs">
+      <DependentUpon>frmLopHoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLove.Designer.cs">
+      <DependentUpon>frmLove.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,22 +84,50 @@
     <Compile Include="frmManagerUser.Designer.cs">
       <DependentUpon>frmManagerUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimer.Designer.cs">
+      <DependentUpon>frmTimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmUser.Designer.cs">
       <DependentUpon>frmUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmYear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmYear.Designer.cs">
+      <DependentUpon>frmYear.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sound.cs" />
+    <EmbeddedResource Include="frmFire.resx">
+      <DependentUpon>frmFire.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLopHoc.resx">
+      <DependentUpon>frmLopHoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLove.resx">
+      <DependentUpon>frmLove.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManagerUser.resx">
       <DependentUpon>frmManagerUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTimer.resx">
+      <DependentUpon>frmTimer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUser.resx">
       <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmYear.resx">
+      <DependentUpon>frmYear.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +156,14 @@
   <ItemGroup>
     <None Include="Resources\mua.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Icons\add.png" />
+    <Content Include="Icons\delete.png" />
+    <Content Include="Icons\edit.png" />
+    <Content Include="Icons\nammoi.gif" />
+    <Content Include="Icons\phaohoa1.gif" />
+    <Content Include="Icons\phaohoa2.gif" />
+    <Content Include="Sound\Phaohoa.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
